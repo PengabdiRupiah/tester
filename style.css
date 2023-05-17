@@ -1,0 +1,86 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.nav-link{
+    list-style-type: none;
+    padding: 100%;
+    height: 50px;
+}
+.container-nav{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+}
+.p{
+    color: white;
+}
+.nav-link:hover{
+    background-color: pink;
+    border-radius: 10px;
+    transition: ease-in-out 0.2s;
+}
+.container-card{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.card{
+    padding: 20px;
+    margin: auto;
+    transition: transform .2s;
+    background-color: black;
+}
+.card:hover{
+    transform: scale(1.10);
+    background-color: black;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: pink;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 10vh;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    color: pink;
+}
+.container-konten{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    height: 90vh;
+}
+.foto{
+    height: 480px;
+    width: 720px;
+    border-radius: 80px;
+    box-shadow: 5px 10px;
+}
+.foto:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    background-color: black;
+    border-radius: 40px;
+}
